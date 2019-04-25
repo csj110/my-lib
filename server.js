@@ -26,7 +26,7 @@ db.on('error', (error) => {
 });
 db.once('open', () => {
   console.log('connect to mongoose')
-})
+});
 
 
 app.listen(3000,(error)=>{
