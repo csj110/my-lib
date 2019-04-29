@@ -1,0 +1,38 @@
+@import 'shared/variable.css';
+@import 'shared/fonts.css';
+@import 'shared/header.css';
+@import 'shared/button.css';
+@import 'shared/form.css';
+@import 'shared/author.css';
+@import 'shared/book.css';
+
+:root{
+  font-family: 'Gotham Rounded';
+  font-size:20px;
+  color:var(--color-text-light);
+}
+* *::after *::before{
+  box-sizing: border-box;
+}
+
+body{
+  background: linear-gradient(to right,var(--color-bg-dark),var(--color-bg-light));
+}
+
+.container{
+  max-width: 1100px;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+
+.inner-container{
+  margin: 0 2rem;
+}
+
+.page-header{
+  font-size:2rem;
+  font-weight: 500;
+}
+.error-message{
+  color:hsl(var(--color-danger-hue),100%,50%);
+}
